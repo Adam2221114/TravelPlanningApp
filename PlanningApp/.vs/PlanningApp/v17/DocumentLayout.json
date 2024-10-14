@@ -1,0 +1,213 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|c:\\users\\rtx3060\\desktop\\gitprojects\\travelplanningapp-newpull\\planningapp\\planningapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:planningapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|c:\\users\\rtx3060\\desktop\\gitprojects\\travelplanningapp-newpull\\planningapp\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|c:\\users\\rtx3060\\desktop\\gitprojects\\travelplanningapp-newpull\\planningapp\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|c:\\users\\rtx3060\\desktop\\gitprojects\\travelplanningapp-newpull\\planningapp\\logo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:logo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|c:\\users\\rtx3060\\desktop\\gitprojects\\travelplanningapp-newpull\\planningapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|c:\\users\\rtx3060\\desktop\\gitprojects\\travelplanningapp-newpull\\planningapp\\migrations\\202410081131267_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:migrations\\202410081131267_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|c:\\users\\rtx3060\\desktop\\gitprojects\\travelplanningapp-newpull\\planningapp\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|c:\\users\\rtx3060\\desktop\\gitprojects\\travelplanningapp-newpull\\planningapp\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|c:\\users\\rtx3060\\desktop\\gitprojects\\travelplanningapp-newpull\\planningapp\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\logo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:logo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlanningApp.csproj",
+              "DocumentMoniker": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\PlanningApp.csproj",
+              "RelativeDocumentMoniker": "PlanningApp.csproj",
+              "ToolTip": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\PlanningApp.csproj",
+              "RelativeToolTip": "PlanningApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-13T05:16:19.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\User.cs",
+              "RelativeDocumentMoniker": "User.cs",
+              "ToolTip": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\User.cs",
+              "RelativeToolTip": "User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T15:11:21.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "Login.Designer.cs",
+              "ToolTip": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\Login.Designer.cs",
+              "RelativeToolTip": "Login.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T15:08:38.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Logo.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\Logo.Designer.cs",
+              "RelativeDocumentMoniker": "Logo.Designer.cs",
+              "ToolTip": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\Logo.Designer.cs",
+              "RelativeToolTip": "Logo.Designer.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAADwvzoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T15:06:42.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T04:45:22.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "202410081131267_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\Migrations\\202410081131267_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\202410081131267_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\Migrations\\202410081131267_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\202410081131267_InitialCreate.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T04:43:48.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "AppDbContext.cs",
+              "ToolTip": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\AppDbContext.cs",
+              "RelativeToolTip": "AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T04:43:39.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\Login.cs",
+              "RelativeToolTip": "Login.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T04:43:34.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "register.cs",
+              "DocumentMoniker": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\register.cs",
+              "RelativeDocumentMoniker": "register.cs",
+              "ToolTip": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\register.cs",
+              "RelativeToolTip": "register.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T04:43:21.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Logo.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\Logo.cs",
+              "RelativeDocumentMoniker": "Logo.cs",
+              "ToolTip": "F:\\c#2\\TravelPlanningApp-main\\TravelPlanningApp-main\\PlanningApp\\Logo.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T15:06:39.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "register.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\register.cs",
+              "RelativeDocumentMoniker": "register.cs",
+              "ToolTip": "F:\\c#2\\TravelPlanningApp-main\\TravelPlanningApp-main\\PlanningApp\\register.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T15:09:35.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "F:\\c#2\\TravelPlanningApp-main\\TravelPlanningApp-main\\PlanningApp\\Login.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T15:06:36.698Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

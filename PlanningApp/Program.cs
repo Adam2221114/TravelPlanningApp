@@ -12,7 +12,7 @@ namespace PlanningApp
         static void Main()
         {
             ApplicationConfiguration.Initialize();
-            Application.Run(new Login()); // 设置登录表单为启动表单
+            Application.Run(new Logo()); // 设置登录表单为启动表单
         }
     }
 }
