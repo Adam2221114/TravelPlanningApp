@@ -24,7 +24,10 @@ public class User
     public string Email { get; set; }
 
     [StringLength(50)]
-    public string Nickname { get; set; } 
+    public string Nickname { get; set; }
+
+    [StringLength(10)]
+    public string Role { get; set; }
 }
 
 
