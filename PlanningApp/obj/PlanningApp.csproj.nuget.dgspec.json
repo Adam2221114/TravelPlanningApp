@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\PlanningApp.csproj": {}
+    "F:\\springC#\\APP2\\PlanningApp\\PlanningApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\PlanningApp.csproj": {
+    "F:\\springC#\\APP2\\PlanningApp\\PlanningApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\PlanningApp.csproj",
+        "projectUniqueName": "F:\\springC#\\APP2\\PlanningApp\\PlanningApp.csproj",
         "projectName": "PlanningApp",
-        "projectPath": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\PlanningApp.csproj",
-        "packagesPath": "C:\\Users\\RTX3060\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\obj\\",
+        "projectPath": "F:\\springC#\\APP2\\PlanningApp\\PlanningApp.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "F:\\springC#\\APP2\\PlanningApp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\RTX3060\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -50,9 +46,19 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
-            "EntityFramework": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.5.1, )"
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
             }
           },
           "imports": [
@@ -74,7 +80,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

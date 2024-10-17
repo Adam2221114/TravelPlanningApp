@@ -1,52 +1,64 @@
+using Microsoft.Win32;
 using System;
 using System.Linq;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace PlanningApp
 {
     public partial class Login : Form
     {
-        public Login()
+        private readonly AppDbContext context;
+
+        public Login(AppDbContext context)
         {
+            this.context = context;
             InitializeComponent();
         }
 
         private void LoginButton_Click(object sender, EventArgs e)
         {
-            using (var context = new AppDbContext())
+            string userAccount = IDTextBox.Text;
+            string password = PasswordTextBox.Text;
+
+            // Find matching users from the database
+            var user = context.Users.FirstOrDefault(u => u.UserAccount == userAccount && u.Password == password);
+
+            if (user != null)
             {
-                string userAccount = IDTextBox.Text;
-                string password = PasswordTextBox.Text;
+                // // Store user information in the global session
+                UserSession.Instance.SetCurrentUser(user);
+                MessageBox.Show("Login successful!");
 
-                var user = context.Users.FirstOrDefault(u => u.UserAccount == userAccount && u.Password == password);
+                if (this.Owner is HomePage homePage)
+                {
+                    homePage.LoadUserContent(user); // Load user content to HomePage
+                }
 
-                if (user != null)
+                if (user.Role == "staff")
                 {
-                    MessageBox.Show("登录成功！");
-                    // 这里可以跳转到主应用页面
+                    // Display the staff page, keep the navigation on HomePage
+                    StaffPage staffPage = new StaffPage(context);
+                    staffPage.ShowDialog();
                 }
-                else
-                {
-                    MessageBox.Show("用户账户或密码错误，请重试。");
-                }
+
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("The user account or password is incorrect, please try again.");
             }
         }
 
+
         private void RegisterButton_Click(object sender, EventArgs e)
         {
-            RegisterForm registerForm = new RegisterForm();
-            registerForm.ShowDialog(); // 显示注册窗口
+            RegisterForm registerForm = new RegisterForm(context);
+            registerForm.ShowDialog();
         }
-
         private void IDTextBox_TextChanged(object sender, EventArgs e)
         {
-
+            // don't need logic for now, you can keep it empty
         }
 
-        private void IDLabel_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

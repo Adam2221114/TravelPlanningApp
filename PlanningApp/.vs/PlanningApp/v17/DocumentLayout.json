@@ -1,54 +1,116 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\",
+  "WorkspaceRootPath": "F:\\springC#\\APP2\\PlanningApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|c:\\users\\rtx3060\\desktop\\gitprojects\\travelplanningapp-newpull\\planningapp\\planningapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:planningapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|f:\\springc#\\app2\\planningapp\\jingdianxiangqing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:jingdianxiangqing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|c:\\users\\rtx3060\\desktop\\gitprojects\\travelplanningapp-newpull\\planningapp\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|c:\\users\\rtx3060\\desktop\\gitprojects\\travelplanningapp-newpull\\planningapp\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|c:\\users\\rtx3060\\desktop\\gitprojects\\travelplanningapp-newpull\\planningapp\\logo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:logo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|c:\\users\\rtx3060\\desktop\\gitprojects\\travelplanningapp-newpull\\planningapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|c:\\users\\rtx3060\\desktop\\gitprojects\\travelplanningapp-newpull\\planningapp\\migrations\\202410081131267_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:migrations\\202410081131267_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|c:\\users\\rtx3060\\desktop\\gitprojects\\travelplanningapp-newpull\\planningapp\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|f:\\springc#\\app2\\planningapp\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|c:\\users\\rtx3060\\desktop\\gitprojects\\travelplanningapp-newpull\\planningapp\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|c:\\users\\rtx3060\\desktop\\gitprojects\\travelplanningapp-newpull\\planningapp\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\logo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:logo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|F:\\springC#\\APP2\\PlanningApp\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|f:\\springc#\\app2\\planningapp\\homepage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:homepage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|f:\\springc#\\app2\\planningapp\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|f:\\springc#\\app2\\planningapp\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|f:\\springc#\\app2\\planningapp\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|F:\\springC#\\APP2\\PlanningApp\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|f:\\springc#\\app2\\planningapp\\navigationbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:navigationbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|f:\\springc#\\app2\\planningapp\\navigationbar.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:navigationbar.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|F:\\springC#\\APP2\\PlanningApp\\navigationbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:navigationbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|f:\\springc#\\app2\\planningapp\\register.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:register.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|f:\\springc#\\app2\\planningapp\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|f:\\springc#\\app2\\planningapp\\staffpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:staffpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|f:\\springc#\\app2\\planningapp\\userprofile.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:userprofile.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|f:\\springc#\\app2\\planningapp\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|F:\\springC#\\APP2\\PlanningApp\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|f:\\springc#\\app2\\planningapp\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|F:\\springC#\\APP2\\PlanningApp\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|f:\\springc#\\app2\\planningapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|F:\\springC#\\APP2\\PlanningApp\\staffpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:staffpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|f:\\springc#\\app2\\planningapp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|f:\\springc#\\app2\\planningapp\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\PlanningApp\\PlanningApp\\Migrations\\202410160645470_AddUserRole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|f:\\springc#\\app2\\planningapp\\touristspot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:touristspot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\AppData\\Local\\Temp\\.vsdbgsrc\\89c6191ddfd049ca757af8839c1a766af60fa0fef2fce5445559d9b7490f7903\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|f:\\springc#\\app2\\planningapp\\staffpage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:staffpage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|F:\\springC#\\APP2\\PlanningApp\\staffpage.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{F304327F-0B6A-4527-9DAB-48CCB58751D1}|PlanningApp.csproj|solutionrelative:staffpage.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,8 +120,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
@@ -67,143 +137,330 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlanningApp.csproj",
-              "DocumentMoniker": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\PlanningApp.csproj",
-              "RelativeDocumentMoniker": "PlanningApp.csproj",
-              "ToolTip": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\PlanningApp.csproj",
-              "RelativeToolTip": "PlanningApp.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-13T05:16:19.405Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\User.cs",
-              "RelativeDocumentMoniker": "User.cs",
-              "ToolTip": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\User.cs",
-              "RelativeToolTip": "User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "jingdianxiangqing.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\springC#\\APP2\\PlanningApp\\jingdianxiangqing.cs",
+              "RelativeDocumentMoniker": "jingdianxiangqing.cs",
+              "ToolTip": "F:\\springC#\\APP2\\PlanningApp\\jingdianxiangqing.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "jingdianxiangqing.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T15:11:21.323Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\Login.Designer.cs",
-              "RelativeDocumentMoniker": "Login.Designer.cs",
-              "ToolTip": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\Login.Designer.cs",
-              "RelativeToolTip": "Login.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T15:08:38.318Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Logo.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\Logo.Designer.cs",
-              "RelativeDocumentMoniker": "Logo.Designer.cs",
-              "ToolTip": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\Logo.Designer.cs",
-              "RelativeToolTip": "Logo.Designer.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAADwvzoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T15:06:42.894Z"
+              "WhenOpened": "2024-10-17T11:11:49.463Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAJAAAAAAAAAA==",
+              "Title": "HomePage.cs",
+              "DocumentMoniker": "F:\\springC#\\APP2\\PlanningApp\\HomePage.cs",
+              "RelativeDocumentMoniker": "HomePage.cs",
+              "ToolTip": "F:\\springC#\\APP2\\PlanningApp\\HomePage.cs",
+              "RelativeToolTip": "HomePage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T04:45:22.321Z"
+              "WhenOpened": "2024-10-17T04:01:33.159Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "202410081131267_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\Migrations\\202410081131267_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\202410081131267_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\Migrations\\202410081131267_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\202410081131267_InitialCreate.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAwwAgAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "HomePage.Designer.cs",
+              "DocumentMoniker": "F:\\springC#\\APP2\\PlanningApp\\HomePage.Designer.cs",
+              "RelativeDocumentMoniker": "HomePage.Designer.cs",
+              "ToolTip": "F:\\springC#\\APP2\\PlanningApp\\HomePage.Designer.cs",
+              "RelativeToolTip": "HomePage.Designer.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAUAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T04:43:48.827Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "AppDbContext.cs",
-              "ToolTip": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\AppDbContext.cs",
-              "RelativeToolTip": "AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T04:43:39.762Z"
+              "WhenOpened": "2024-10-17T04:01:23.811Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\Login.cs",
+              "Title": "Login.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\springC#\\APP2\\PlanningApp\\Login.cs",
               "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\Login.cs",
-              "RelativeToolTip": "Login.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "F:\\springC#\\PlanningApp\\Login.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "..\\..\\PlanningApp\\Login.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T04:43:34.076Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T07:03:23.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "F:\\springC#\\APP2\\PlanningApp\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "AppDbContext.cs",
+              "ToolTip": "F:\\springC#\\APP2\\PlanningApp\\AppDbContext.cs",
+              "RelativeToolTip": "AppDbContext.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA1wBYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T07:52:03.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "F:\\springC#\\APP2\\PlanningApp\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "Login.Designer.cs",
+              "ToolTip": "F:\\springC#\\APP2\\PlanningApp\\Login.Designer.cs",
+              "RelativeToolTip": "Login.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T16:40:18.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cs",
+              "DocumentMoniker": "F:\\springC#\\APP2\\PlanningApp\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "F:\\springC#\\APP2\\PlanningApp\\Login.cs",
+              "RelativeToolTip": "Login.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwB0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T07:03:34.134Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "register.cs",
-              "DocumentMoniker": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\register.cs",
-              "RelativeDocumentMoniker": "register.cs",
-              "ToolTip": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\register.cs",
-              "RelativeToolTip": "register.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Title": "NavigationBar.cs",
+              "DocumentMoniker": "F:\\springC#\\APP2\\PlanningApp\\NavigationBar.cs",
+              "RelativeDocumentMoniker": "NavigationBar.cs",
+              "ToolTip": "F:\\springC#\\APP2\\PlanningApp\\NavigationBar.cs",
+              "RelativeToolTip": "NavigationBar.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAswCsAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T04:43:21.518Z",
+              "WhenOpened": "2024-10-16T07:19:40.896Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Logo.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\Logo.cs",
-              "RelativeDocumentMoniker": "Logo.cs",
-              "ToolTip": "F:\\c#2\\TravelPlanningApp-main\\TravelPlanningApp-main\\PlanningApp\\Logo.cs [\u8BBE\u8BA1]",
+              "DocumentIndex": 2,
+              "Title": "register.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\springC#\\APP2\\PlanningApp\\register.cs",
+              "RelativeDocumentMoniker": "register.cs",
+              "ToolTip": "F:\\springC#\\APP2\\PlanningApp\\register.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "register.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T15:06:39.093Z"
+              "WhenOpened": "2024-10-16T07:40:01.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NavigationBar.Designer.cs",
+              "DocumentMoniker": "F:\\springC#\\APP2\\PlanningApp\\NavigationBar.Designer.cs",
+              "RelativeDocumentMoniker": "NavigationBar.Designer.cs",
+              "ToolTip": "F:\\springC#\\APP2\\PlanningApp\\NavigationBar.Designer.cs",
+              "RelativeToolTip": "NavigationBar.Designer.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAQwGcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T17:33:00.657Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "register.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\register.cs",
-              "RelativeDocumentMoniker": "register.cs",
-              "ToolTip": "F:\\c#2\\TravelPlanningApp-main\\TravelPlanningApp-main\\PlanningApp\\register.cs [\u8BBE\u8BA1]",
+              "Title": "NavigationBar.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\springC#\\APP2\\PlanningApp\\NavigationBar.cs",
+              "RelativeDocumentMoniker": "NavigationBar.cs",
+              "ToolTip": "F:\\springC#\\PlanningApp\\NavigationBar.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "..\\..\\PlanningApp\\NavigationBar.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T15:09:35.659Z"
+              "WhenOpened": "2024-10-16T17:32:44.797Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Login.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "C:\\Users\\RTX3060\\Desktop\\GitProjects\\TravelPlanningApp-newpull\\PlanningApp\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "F:\\c#2\\TravelPlanningApp-main\\TravelPlanningApp-main\\PlanningApp\\Login.cs [\u8BBE\u8BA1]",
+              "Title": "register.Designer.cs",
+              "DocumentMoniker": "F:\\springC#\\APP2\\PlanningApp\\register.Designer.cs",
+              "RelativeDocumentMoniker": "register.Designer.cs",
+              "ToolTip": "F:\\springC#\\APP2\\PlanningApp\\register.Designer.cs",
+              "RelativeToolTip": "register.Designer.cs",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAYwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T15:06:36.698Z"
+              "WhenOpened": "2024-10-16T17:21:59.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "register.cs",
+              "DocumentMoniker": "F:\\springC#\\APP2\\PlanningApp\\register.cs",
+              "RelativeDocumentMoniker": "register.cs",
+              "ToolTip": "F:\\springC#\\APP2\\PlanningApp\\register.cs",
+              "RelativeToolTip": "register.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T07:40:03.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StaffPage.cs",
+              "DocumentMoniker": "F:\\springC#\\APP2\\PlanningApp\\StaffPage.cs",
+              "RelativeDocumentMoniker": "StaffPage.cs",
+              "ToolTip": "F:\\springC#\\APP2\\PlanningApp\\StaffPage.cs",
+              "RelativeToolTip": "StaffPage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvw8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T07:16:59.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserProfile.Designer.cs",
+              "DocumentMoniker": "F:\\springC#\\APP2\\PlanningApp\\UserProfile.Designer.cs",
+              "RelativeDocumentMoniker": "UserProfile.Designer.cs",
+              "ToolTip": "F:\\springC#\\APP2\\PlanningApp\\UserProfile.Designer.cs",
+              "RelativeToolTip": "UserProfile.Designer.cs",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAYwHYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T04:34:23.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "F:\\springC#\\APP2\\PlanningApp\\UserProfile.cs",
+              "RelativeDocumentMoniker": "UserProfile.cs",
+              "ToolTip": "F:\\springC#\\APP2\\PlanningApp\\UserProfile.cs",
+              "RelativeToolTip": "UserProfile.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T04:33:20.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserProfile.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\springC#\\APP2\\PlanningApp\\UserProfile.cs",
+              "RelativeDocumentMoniker": "UserProfile.cs",
+              "ToolTip": "F:\\springC#\\PlanningApp\\UserProfile.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "..\\..\\PlanningApp\\UserProfile.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T04:32:48.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "F:\\springC#\\APP2\\PlanningApp\\UserSession.cs",
+              "RelativeDocumentMoniker": "UserSession.cs",
+              "ToolTip": "F:\\springC#\\APP2\\PlanningApp\\UserSession.cs",
+              "RelativeToolTip": "UserSession.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T08:59:31.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HomePage.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\springC#\\APP2\\PlanningApp\\HomePage.cs",
+              "RelativeDocumentMoniker": "HomePage.cs",
+              "ToolTip": "F:\\springC#\\PlanningApp\\HomePage.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "..\\..\\PlanningApp\\HomePage.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T04:01:13.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\springC#\\APP2\\PlanningApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "F:\\springC#\\APP2\\PlanningApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T08:59:19.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "StaffPage.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\springC#\\APP2\\PlanningApp\\StaffPage.cs",
+              "RelativeDocumentMoniker": "StaffPage.cs",
+              "ToolTip": "F:\\springC#\\PlanningApp\\StaffPage.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "..\\..\\PlanningApp\\StaffPage.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T07:14:48.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "App.config",
+              "DocumentMoniker": "F:\\springC#\\APP2\\PlanningApp\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "F:\\springC#\\APP2\\PlanningApp\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-16T17:14:39.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "202410160645470_AddUserRole.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\PlanningApp\\PlanningApp\\Migrations\\202410160645470_AddUserRole.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\PlanningApp\\PlanningApp\\Migrations\\202410160645470_AddUserRole.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T09:06:02.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\springC#\\APP2\\PlanningApp\\User.cs",
+              "RelativeDocumentMoniker": "User.cs",
+              "ToolTip": "F:\\springC#\\APP2\\PlanningApp\\User.cs",
+              "RelativeToolTip": "User.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwBIAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T07:40:23.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TouristSpot.cs",
+              "DocumentMoniker": "F:\\springC#\\APP2\\PlanningApp\\TouristSpot.cs",
+              "RelativeDocumentMoniker": "TouristSpot.cs",
+              "ToolTip": "F:\\springC#\\APP2\\PlanningApp\\TouristSpot.cs",
+              "RelativeToolTip": "TouristSpot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T08:59:28.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\.vsdbgsrc\\89c6191ddfd049ca757af8839c1a766af60fa0fef2fce5445559d9b7490f7903\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\.vsdbgsrc\\89c6191ddfd049ca757af8839c1a766af60fa0fef2fce5445559d9b7490f7903\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T08:54:43.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "StaffPage.Designer.cs",
+              "DocumentMoniker": "F:\\springC#\\APP2\\PlanningApp\\StaffPage.Designer.cs",
+              "RelativeDocumentMoniker": "StaffPage.Designer.cs",
+              "ToolTip": "F:\\springC#\\APP2\\PlanningApp\\StaffPage.Designer.cs",
+              "RelativeToolTip": "StaffPage.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T07:16:51.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "StaffPage.resx",
+              "DocumentMoniker": "F:\\springC#\\APP2\\PlanningApp\\StaffPage.resx",
+              "RelativeDocumentMoniker": "StaffPage.resx",
+              "ToolTip": "F:\\springC#\\APP2\\PlanningApp\\StaffPage.resx",
+              "RelativeToolTip": "StaffPage.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-10-16T07:16:50.796Z"
             }
           ]
         }
