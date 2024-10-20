@@ -58,7 +58,7 @@ namespace PlanningApp
 
         protected override void OnFormClosed(FormClosedEventArgs e) // Release database context resources
         {
-            context.Dispose();
+            //context.Dispose();
             base.OnFormClosed(e);
         }
     }
