@@ -1,16 +1,36 @@
 ﻿using System;
 using System.Windows.Forms;
+using Microsoft.EntityFrameworkCore;
 
 namespace PlanningApp
 {
     public partial class NavigationBar : UserControl
     {
-        private readonly AppDbContext _context;
+        private  AppDbContext _context;
+        public NavigationBar()
+        {
 
+            InitializeComponent();
+        }
         public NavigationBar(AppDbContext context)
         {
             _context = context;
             InitializeComponent();
+        }
+        protected override void OnLoad(EventArgs e)
+        {
+            base.OnLoad(e);
+
+            if (!this.DesignMode && _context == null)
+            {
+                InitializeDbContext();
+            }
+        }
+        private void InitializeDbContext()
+        {
+            var optionsBuilder = new DbContextOptionsBuilder<AppDbContext>();
+            optionsBuilder.UseSqlite("Data Source=localdatabase.db");
+            _context = new AppDbContext(optionsBuilder.Options);
         }
 
         public void SetUserLoggedIn(string userAccount, string nickname)

@@ -245,7 +245,6 @@ C:\Users\Administrator\Desktop\PlanningApp\PlanningApp\obj\Debug\net8.0-windows\
 C:\Users\Administrator\Desktop\PlanningApp\PlanningApp\obj\Debug\net8.0-windows\PlanningApp.genruntimeconfig.cache
 C:\Users\Administrator\Desktop\PlanningApp\PlanningApp\obj\Debug\net8.0-windows\ref\PlanningApp.dll
 C:\Users\Administrator\Desktop\PlanningApp\obj\Debug\net8.0-windows\PlanningApp.csproj.AssemblyReference.cache
-C:\Users\Administrator\Desktop\PlanningApp\obj\Debug\net8.0-windows\PlanningApp.CustomerPage.resources
 C:\Users\Administrator\Desktop\PlanningApp\obj\Debug\net8.0-windows\PlanningApp.HomePage.resources
 C:\Users\Administrator\Desktop\PlanningApp\obj\Debug\net8.0-windows\PlanningApp.Login.resources
 C:\Users\Administrator\Desktop\PlanningApp\obj\Debug\net8.0-windows\PlanningApp.NavigationBar.resources
@@ -606,4 +605,7 @@ F:\springC#\APP2\PlanningApp\bin\Debug\net8.0-windows\runtimes\win-arm\native\e_
 F:\springC#\APP2\PlanningApp\bin\Debug\net8.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
 F:\springC#\APP2\PlanningApp\bin\Debug\net8.0-windows\runtimes\win-x64\native\e_sqlite3.dll
 F:\springC#\APP2\PlanningApp\bin\Debug\net8.0-windows\runtimes\win-x86\native\e_sqlite3.dll
-F:\springC#\APP2\PlanningApp\obj\Debug\net8.0-windows\PlanningApp.jingdianxiangqing.resources
+C:\Users\Administrator\Desktop\PlanningApp\obj\Debug\net8.0-windows\PlanningApp.Properties.Resources.resources
+C:\Users\Administrator\Desktop\PlanningApp\obj\Debug\net8.0-windows\PlanningApp.TouristSpotDetailsForm.resources
+F:\springC#\APP2\PlanningApp\obj\Debug\net8.0-windows\PlanningApp.Properties.Resources.resources
+F:\springC#\APP2\PlanningApp\obj\Debug\net8.0-windows\PlanningApp.TouristSpotDetailsForm.resources
