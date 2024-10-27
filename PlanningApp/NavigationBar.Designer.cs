@@ -1,108 +1,212 @@
-﻿namespace PlanningApp
+﻿using FontAwesome.Sharp;
+using System;
+using System.Drawing;
+using System.Windows.Forms;
+
+namespace PlanningApp
 {
     partial class NavigationBar
     {
         private System.ComponentModel.IContainer components = null;
-        public Button BtnSignIn;
-        public Button BtnRegister;
-        public Button BtnUserName;
-        private Button BtnHome;
-        private Button BtnAllTouristSpots;
-        private Button BtnMostPopular;
+        public IconButton BtnSignIn;
+        public IconButton BtnRegister;
+        public IconButton BtnUserName;
         private ContextMenuStrip UserMenu;
-        private ToolStripMenuItem UserProfileMenuItem;
-        private ToolStripMenuItem FavoritesMenuItem;
-        private ToolStripMenuItem SettingsMenuItem;
-        private ToolStripMenuItem LogoutMenuItem;
+        private IconMenuItem UserProfileMenuItem;  // 使用 IconMenuItem
+        private IconMenuItem FavoritesMenuItem;    // 使用 IconMenuItem
+        private IconMenuItem SettingsMenuItem;     // 使用 IconMenuItem
+        private IconMenuItem LogoutMenuItem;       // 使用 IconMenuItem
+        private IconButton iconBtnHome;  // 声明 Home 的 IconButton
+        private IconButton iconBtnAllTouristSpots;  // 声明 All Tourist Spots 的 IconButton
+        private IconButton iconBtnMostPopular;  // 声明 Most Popular 的 IconButton
 
+        /// <summary>
+        /// 清理所有正在使用的资源。
+        /// </summary>
+        /// <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// 设计器支持所需的方法 - 不要使用代码编辑器修改此方法的内容。
+        /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.BtnSignIn = new Button();
-            this.BtnRegister = new Button();
-            this.BtnUserName = new Button();
-            this.BtnHome = new Button();
-            this.BtnAllTouristSpots = new Button();
-            this.BtnMostPopular = new Button();
-            this.UserMenu = new ContextMenuStrip(this.components);
-            this.UserProfileMenuItem = new ToolStripMenuItem();
-            this.FavoritesMenuItem = new ToolStripMenuItem();
-            this.SettingsMenuItem = new ToolStripMenuItem();
-            this.LogoutMenuItem = new ToolStripMenuItem();
-
-            // BtnHome
-            this.BtnHome.Text = "Home";
-            this.BtnHome.Location = new System.Drawing.Point(10, 10);
-            this.BtnHome.Size = new System.Drawing.Size(100, 30);
-            this.BtnHome.Click += new EventHandler(this.HomeButton_Click);
-            this.Controls.Add(this.BtnHome);
-
-            // BtnAllTouristSpots
-            this.BtnAllTouristSpots.Text = "All Tourist Spots";
-            this.BtnAllTouristSpots.Location = new System.Drawing.Point(120, 10);
-            this.BtnAllTouristSpots.Size = new System.Drawing.Size(150, 30);
-            this.BtnAllTouristSpots.Click += new EventHandler(this.AllTouristSpotsButton_Click);
-            this.Controls.Add(this.BtnAllTouristSpots);
-
-            // BtnMostPopular
-            this.BtnMostPopular.Text = "Most Popular";
-            this.BtnMostPopular.Location = new System.Drawing.Point(280, 10);
-            this.BtnMostPopular.Size = new System.Drawing.Size(130, 30);
-            this.BtnMostPopular.Click += new EventHandler(this.MostPopularButton_Click);
-            this.Controls.Add(this.BtnMostPopular);
-
+            components = new System.ComponentModel.Container();
+            BtnSignIn = new IconButton();
+            BtnRegister = new IconButton();
+            BtnUserName = new IconButton();
+            UserMenu = new ContextMenuStrip(components);
+            UserProfileMenuItem = new IconMenuItem();
+            FavoritesMenuItem = new IconMenuItem();
+            SettingsMenuItem = new IconMenuItem();
+            LogoutMenuItem = new IconMenuItem();
+            iconBtnHome = new IconButton();
+            iconBtnAllTouristSpots = new IconButton();
+            iconBtnMostPopular = new IconButton();
+            UserMenu.SuspendLayout();
+            SuspendLayout();
+            // 
             // BtnSignIn
-            this.BtnSignIn.Text = "Sign In";
-            this.BtnSignIn.Location = new System.Drawing.Point(600, 10);
-            this.BtnSignIn.Size = new System.Drawing.Size(75, 30);
-            this.BtnSignIn.Click += new EventHandler(this.BtnSignIn_Click);
-            this.Controls.Add(this.BtnSignIn);
-
+            // 
+            BtnSignIn.IconChar = IconChar.UserCheck;
+            BtnSignIn.IconColor = Color.Black;
+            BtnSignIn.IconFont = IconFont.Auto;
+            BtnSignIn.IconSize = 32;
+            BtnSignIn.Location = new Point(837, 1);
+            BtnSignIn.Name = "BtnSignIn";
+            BtnSignIn.Size = new Size(140, 50);
+            BtnSignIn.TabIndex = 4;
+            BtnSignIn.Text = "Sign In";
+            BtnSignIn.TextAlign = ContentAlignment.MiddleRight;
+            BtnSignIn.TextImageRelation = TextImageRelation.ImageBeforeText;
+            BtnSignIn.Click += BtnSignIn_Click;
+            // 
             // BtnRegister
-            this.BtnRegister.Text = "Register";
-            this.BtnRegister.Location = new System.Drawing.Point(680, 10);
-            this.BtnRegister.Size = new System.Drawing.Size(75, 30);
-            this.BtnRegister.Click += new EventHandler(this.BtnRegister_Click);
-            this.Controls.Add(this.BtnRegister);
-
+            // 
+            BtnRegister.IconChar = IconChar.UserPlus;
+            BtnRegister.IconColor = Color.Black;
+            BtnRegister.IconFont = IconFont.Auto;
+            BtnRegister.IconSize = 32;
+            BtnRegister.Location = new Point(1000, 1);
+            BtnRegister.Name = "BtnRegister";
+            BtnRegister.Size = new Size(140, 50);
+            BtnRegister.TabIndex = 5;
+            BtnRegister.Text = "Register";
+            BtnRegister.TextAlign = ContentAlignment.MiddleRight;
+            BtnRegister.TextImageRelation = TextImageRelation.ImageBeforeText;
+            BtnRegister.Click += BtnRegister_Click;
+            // 
             // BtnUserName
-            this.BtnUserName.Text = "User";
-            this.BtnUserName.Location = new System.Drawing.Point(600, 10);
-            this.BtnUserName.Size = new System.Drawing.Size(155, 30);
-            this.BtnUserName.Visible = false;
-            this.BtnUserName.Click += new EventHandler(this.BtnUserName_Click);
-            this.Controls.Add(this.BtnUserName);
-
+            // 
+            BtnUserName.IconChar = IconChar.User;
+            BtnUserName.IconColor = Color.Black;
+            BtnUserName.IconFont = IconFont.Auto;
+            BtnUserName.IconSize = 32;
+            BtnUserName.Location = new Point(919, 3);
+            BtnUserName.Name = "BtnUserName";
+            BtnUserName.Size = new Size(180, 50);
+            BtnUserName.TabIndex = 6;
+            BtnUserName.Text = "User";
+            BtnUserName.TextAlign = ContentAlignment.MiddleRight;
+            BtnUserName.TextImageRelation = TextImageRelation.ImageBeforeText;
+            BtnUserName.Visible = false;
+            BtnUserName.Click += BtnUserName_Click;
+            // 
             // UserMenu
-            this.UserMenu.Items.AddRange(new ToolStripItem[] {
-                this.UserProfileMenuItem,
-                this.FavoritesMenuItem,
-                this.SettingsMenuItem,
-                this.LogoutMenuItem});
-            this.BtnUserName.ContextMenuStrip = this.UserMenu;
-
+            // 
+            UserMenu.ImageScalingSize = new Size(40, 40);
+            UserMenu.Items.AddRange(new ToolStripItem[] { UserProfileMenuItem, FavoritesMenuItem, SettingsMenuItem, LogoutMenuItem });
+            UserMenu.Name = "UserMenu";
+            UserMenu.Size = new Size(187, 188);
+            // 
             // UserProfileMenuItem
-            this.UserProfileMenuItem.Text = "User Profile";
-            this.UserProfileMenuItem.Click += new EventHandler(this.Profile_Click);
-
+            // 
+            UserProfileMenuItem.IconChar = IconChar.DriversLicense;
+            UserProfileMenuItem.IconColor = Color.Black;
+            UserProfileMenuItem.IconFont = IconFont.Auto;
+            UserProfileMenuItem.Name = "UserProfileMenuItem";
+            UserProfileMenuItem.Size = new Size(186, 46);
+            UserProfileMenuItem.Text = "User Profile";
+            UserProfileMenuItem.Click += Profile_Click;
+            // 
             // FavoritesMenuItem
-            this.FavoritesMenuItem.Text = "Favorites";
-            this.FavoritesMenuItem.Click += new EventHandler(this.Favorites_Click);
-
+            // 
+            FavoritesMenuItem.IconChar = IconChar.Heart;
+            FavoritesMenuItem.IconColor = Color.Black;
+            FavoritesMenuItem.IconFont = IconFont.Auto;
+            FavoritesMenuItem.Name = "FavoritesMenuItem";
+            FavoritesMenuItem.Size = new Size(186, 46);
+            FavoritesMenuItem.Text = "Favorites";
+            FavoritesMenuItem.Click += Favorites_Click;
+            // 
             // SettingsMenuItem
-            this.SettingsMenuItem.Text = "Settings";
-            this.SettingsMenuItem.Click += new EventHandler(this.Settings_Click);
-
+            // 
+            SettingsMenuItem.IconChar = IconChar.Cog;
+            SettingsMenuItem.IconColor = Color.Black;
+            SettingsMenuItem.IconFont = IconFont.Auto;
+            SettingsMenuItem.Name = "SettingsMenuItem";
+            SettingsMenuItem.Size = new Size(186, 46);
+            SettingsMenuItem.Text = "Settings";
+            SettingsMenuItem.Click += Settings_Click;
+            // 
             // LogoutMenuItem
-            this.LogoutMenuItem.Text = "Logout";
-            this.LogoutMenuItem.Click += new EventHandler(this.Logout_Click);
-
+            // 
+            LogoutMenuItem.IconChar = IconChar.Reply;
+            LogoutMenuItem.IconColor = Color.Black;
+            LogoutMenuItem.IconFont = IconFont.Auto;
+            LogoutMenuItem.Name = "LogoutMenuItem";
+            LogoutMenuItem.Size = new Size(186, 46);
+            LogoutMenuItem.Text = "Logout";
+            LogoutMenuItem.Click += Logout_Click;
+            // 
+            // iconBtnHome
+            // 
+            iconBtnHome.IconChar = IconChar.House;
+            iconBtnHome.IconColor = Color.Black;
+            iconBtnHome.IconFont = IconFont.Auto;
+            iconBtnHome.IconSize = 32;
+            iconBtnHome.Location = new Point(16, 1);
+            iconBtnHome.Name = "iconBtnHome";
+            iconBtnHome.Size = new Size(160, 50);
+            iconBtnHome.TabIndex = 1;
+            iconBtnHome.Text = "Home";
+            iconBtnHome.TextAlign = ContentAlignment.MiddleRight;
+            iconBtnHome.TextImageRelation = TextImageRelation.ImageBeforeText;
+            iconBtnHome.Click += HomeButton_Click;
+            // 
+            // iconBtnAllTouristSpots
+            // 
+            iconBtnAllTouristSpots.IconChar = IconChar.MapMarkerAlt;
+            iconBtnAllTouristSpots.IconColor = Color.Black;
+            iconBtnAllTouristSpots.IconFont = IconFont.Auto;
+            iconBtnAllTouristSpots.IconSize = 32;
+            iconBtnAllTouristSpots.Location = new Point(192, 1);
+            iconBtnAllTouristSpots.Name = "iconBtnAllTouristSpots";
+            iconBtnAllTouristSpots.Size = new Size(200, 50);
+            iconBtnAllTouristSpots.TabIndex = 2;
+            iconBtnAllTouristSpots.Text = "All Tourist Spots";
+            iconBtnAllTouristSpots.TextAlign = ContentAlignment.MiddleRight;
+            iconBtnAllTouristSpots.TextImageRelation = TextImageRelation.ImageBeforeText;
+            iconBtnAllTouristSpots.Click += AllTouristSpotsButton_Click;
+            // 
+            // iconBtnMostPopular
+            // 
+            iconBtnMostPopular.IconChar = IconChar.ThumbsUp;
+            iconBtnMostPopular.IconColor = Color.Black;
+            iconBtnMostPopular.IconFont = IconFont.Auto;
+            iconBtnMostPopular.IconSize = 32;
+            iconBtnMostPopular.Location = new Point(410, 3);
+            iconBtnMostPopular.Name = "iconBtnMostPopular";
+            iconBtnMostPopular.Size = new Size(180, 50);
+            iconBtnMostPopular.TabIndex = 3;
+            iconBtnMostPopular.Text = "Most Popular";
+            iconBtnMostPopular.TextAlign = ContentAlignment.MiddleRight;
+            iconBtnMostPopular.TextImageRelation = TextImageRelation.ImageBeforeText;
+            iconBtnMostPopular.Click += MostPopularButton_Click;
+            // 
             // NavigationBar
-            this.Size = new System.Drawing.Size(800, 50);
+            // 
+            Controls.Add(iconBtnHome);
+            Controls.Add(iconBtnAllTouristSpots);
+            Controls.Add(iconBtnMostPopular);
+            Controls.Add(BtnSignIn);
+            Controls.Add(BtnRegister);
+            Controls.Add(BtnUserName);
+            Name = "NavigationBar";
+            Size = new Size(1220, 54);
+            UserMenu.ResumeLayout(false);
+            ResumeLayout(false);
         }
+
+        #endregion
     }
 }
-
-
-
-

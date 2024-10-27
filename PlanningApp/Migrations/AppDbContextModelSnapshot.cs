@@ -32,9 +32,6 @@ namespace PlanningApp.Migrations
                         .HasMaxLength(255)
                         .HasColumnType("TEXT");
 
-                    b.Property<bool>("IsPopular")
-                        .HasColumnType("INTEGER");
-
                     b.Property<string>("Location")
                         .IsRequired()
                         .HasMaxLength(200)
@@ -45,6 +42,9 @@ namespace PlanningApp.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("TEXT");
 
+                    b.Property<int>("PopularityCount")
+                        .HasColumnType("INTEGER");
+
                     b.Property<double>("Rating")
                         .HasColumnType("REAL");
 
@@ -53,7 +53,7 @@ namespace PlanningApp.Migrations
                     b.ToTable("TouristSpots");
                 });
 
-            modelBuilder.Entity("User", b =>
+            modelBuilder.Entity("PlanningApp.User", b =>
                 {
                     b.Property<int>("UserId")
                         .ValueGeneratedOnAdd()
@@ -77,19 +77,41 @@ namespace PlanningApp.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Role")
-                        .IsRequired()
-                        .HasMaxLength(10)
-                        .HasColumnType("TEXT");
-
                     b.Property<string>("UserAccount")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("UserType")
+                        .IsRequired()
+                        .HasMaxLength(8)
+                        .HasColumnType("TEXT");
+
                     b.HasKey("UserId");
 
                     b.ToTable("Users");
+
+                    b.HasDiscriminator<string>("UserType").HasValue("User");
+
+                    b.UseTphMappingStrategy();
+                });
+
+            modelBuilder.Entity("PlanningApp.Customer", b =>
+                {
+                    b.HasBaseType("PlanningApp.User");
+
+                    b.Property<string>("Favorites")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasDiscriminator().HasValue("Customer");
+                });
+
+            modelBuilder.Entity("PlanningApp.Staff", b =>
+                {
+                    b.HasBaseType("PlanningApp.User");
+
+                    b.HasDiscriminator().HasValue("Staff");
                 });
 #pragma warning restore 612, 618
         }

@@ -3,11 +3,11 @@
     private static UserSession _instance;
     public static UserSession Instance => _instance ??= new UserSession();
 
-    public User CurrentUser { get; private set; }
+    public PlanningApp.User CurrentUser { get; private set; } 
 
     private UserSession() { }
 
-    public void SetCurrentUser(User user)
+    public void SetCurrentUser(PlanningApp.User user) 
     {
         CurrentUser = user;
     }
@@ -17,6 +17,7 @@
         CurrentUser = null;
     }
 }
+
 
 
 

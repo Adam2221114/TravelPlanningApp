@@ -64,32 +64,32 @@ namespace PlanningApp
             DgvData.Visible = false;
         }
 
-        private void DgvData1_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
-        {
-            if (e.ColumnIndex == 6) // Assuming IsPopular is in the 6th column
-            {
-                if (e.Value != null)// First check if e.Value is empty
-                {
-                    //Checks if e.Value is a boolean
-                    bool boolValue;
-                    if (bool.TryParse(e.Value.ToString(), out boolValue))
-                    {
-                        e.Value = boolValue;
-                    }
-                    else //If not a boolean, check if it is a number
-                    {
-                        int parsedValue;
-                        if (int.TryParse(e.Value.ToString(), out parsedValue))
-                        {
-                            e.Value = (parsedValue == 1); // 1 means true, others mean false
-                        }
-                        else
-                        { // If it is neither a boolean nor a number, set it to the default value false
-                            e.Value = false;
-                        }
-                    }
-                }
-            }
-        }
+        //private void DgvData1_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+        //{
+        //    if (e.ColumnIndex == 6) // Assuming IsPopular is in the 6th column
+        //    {
+        //        if (e.Value != null)// First check if e.Value is empty
+        //        {
+        //            //Checks if e.Value is a boolean
+        //            bool boolValue;
+        //            if (bool.TryParse(e.Value.ToString(), out boolValue))
+        //            {
+        //                e.Value = boolValue;
+        //            }
+        //            else //If not a boolean, check if it is a number
+        //            {
+        //                int parsedValue;
+        //                if (int.TryParse(e.Value.ToString(), out parsedValue))
+        //                {
+        //                    e.Value = (parsedValue == 1); // 1 means true, others mean false
+        //                }
+        //                else
+        //                { // If it is neither a boolean nor a number, set it to the default value false
+        //                    e.Value = false;
+        //                }
+        //            }
+        //        }
+        //    }
+        //}
     }
 }

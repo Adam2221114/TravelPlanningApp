@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Windows.Forms;
 using System.Drawing;
 
@@ -11,20 +12,19 @@ namespace PlanningApp
 
         public HomePage(AppDbContext context)
         {
-            _context = context;
+            _context = context;  // 将数据库上下文传递到本类中
             InitializeComponent();
             LoadImagesFromDatabase();  // 加载图片的方法
-
         }
 
         private void HomePage_Load(object sender, EventArgs e)
         {
         }
+
         private void LoadImagesFromDatabase()
         {
             try
             {
-
                 _touristSpots = _context.TouristSpots
                     .Where(t => t.Id >= 1 && t.Id <= 4)
                     .OrderBy(t => t.Id)
@@ -53,17 +53,17 @@ namespace PlanningApp
             if (!string.IsNullOrEmpty(imagePath) && System.IO.File.Exists(imagePath))
             {
                 pictureBox.Image = Image.FromFile(imagePath);
-                pictureBox.SizeMode = PictureBoxSizeMode.StretchImage; 
+                pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
             }
         }
 
         public void LoadUserContent(User user)
         {
-            if (user.Role == "customer")
+            if (user is Customer)
             {
-                navigationBar1.SetUserLoggedIn(user.UserAccount, user.Nickname);
+                navigationBar1.SetUserLoggedIn(user.UserAccount, user.Nickname);  // 显示用户的昵称
             }
-            else if (user.Role == "staff")
+            else if (user is Staff)
             {
                 StaffPage staffPage = new StaffPage(_context);
                 staffPage.ShowDialog();
@@ -72,12 +72,12 @@ namespace PlanningApp
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            ShowTouristSpotDetails(0); 
+            ShowTouristSpotDetails(0);
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            ShowTouristSpotDetails(1); 
+            ShowTouristSpotDetails(1);
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -87,7 +87,7 @@ namespace PlanningApp
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            ShowTouristSpotDetails(3); 
+            ShowTouristSpotDetails(3);
         }
 
         private void ShowTouristSpotDetails(int index)
@@ -95,9 +95,15 @@ namespace PlanningApp
             if (index >= 0 && index < _touristSpots.Length)
             {
                 var touristSpot = _touristSpots[index];
-                var detailsForm = new TouristSpotDetailsForm(touristSpot);
+                // 传递 _context 和 touristSpot 给 TouristSpotDetailsForm
+                var detailsForm = new TouristSpotDetailsForm(_context, touristSpot);
                 detailsForm.ShowDialog();  // 弹出详情窗口
             }
+        }
+
+        private void navigationBar1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

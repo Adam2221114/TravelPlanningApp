@@ -2,10 +2,19 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Compile Update="AllTouristSpotsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Favorites.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="HomePage.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MostPopularFor.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="NavigationBar.cs">
