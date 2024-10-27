@@ -30,13 +30,6 @@
         {
             button1 = new Button();
             DgvData = new DataGridView();
-            Column1 = new DataGridViewTextBoxColumn();
-            Column2 = new DataGridViewTextBoxColumn();
-            Column3 = new DataGridViewTextBoxColumn();
-            Column4 = new DataGridViewTextBoxColumn();
-            Column5 = new DataGridViewTextBoxColumn();
-            Column6 = new DataGridViewTextBoxColumn();
-            Column7 = new DataGridViewTextBoxColumn();
             button2 = new Button();
             DgvData1 = new DataGridView();
             dataGridViewTextBoxColumn1 = new DataGridViewTextBoxColumn();
@@ -46,6 +39,13 @@
             dataGridViewTextBoxColumn5 = new DataGridViewTextBoxColumn();
             dataGridViewTextBoxColumn6 = new DataGridViewTextBoxColumn();
             ColIsPopular = new DataGridViewTextBoxColumn();
+            Column1 = new DataGridViewTextBoxColumn();
+            Column2 = new DataGridViewTextBoxColumn();
+            Column3 = new DataGridViewTextBoxColumn();
+            Column4 = new DataGridViewTextBoxColumn();
+            Column5 = new DataGridViewTextBoxColumn();
+            Column6 = new DataGridViewTextBoxColumn();
+            Column7 = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)DgvData).BeginInit();
             ((System.ComponentModel.ISupportInitialize)DgvData1).BeginInit();
             SuspendLayout();
@@ -72,48 +72,6 @@
             DgvData.Size = new Size(800, 331);
             DgvData.TabIndex = 1;
             // 
-            // Column1
-            // 
-            Column1.DataPropertyName = "UserId";
-            Column1.HeaderText = "UserId";
-            Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            Column2.DataPropertyName = "UserAccount";
-            Column2.HeaderText = "UserAccount";
-            Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            Column3.DataPropertyName = "Password";
-            Column3.HeaderText = "Password";
-            Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            Column4.DataPropertyName = "PhoneNumber";
-            Column4.HeaderText = "PhoneNumber";
-            Column4.Name = "Column4";
-            // 
-            // Column5
-            // 
-            Column5.DataPropertyName = "Email";
-            Column5.HeaderText = "Email";
-            Column5.Name = "Column5";
-            // 
-            // Column6
-            // 
-            Column6.DataPropertyName = "Nickname";
-            Column6.HeaderText = "Nickname";
-            Column6.Name = "Column6";
-            // 
-            // Column7
-            // 
-            Column7.DataPropertyName = "Role";
-            Column7.HeaderText = "Role";
-            Column7.Name = "Column7";
-            // 
             // button2
             // 
             button2.Location = new Point(422, 35);
@@ -135,7 +93,6 @@
             DgvData1.Size = new Size(800, 331);
             DgvData1.TabIndex = 3;
             DgvData1.Visible = false;
-            DgvData1.CellFormatting += DgvData1_CellFormatting;
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -175,9 +132,52 @@
             // 
             // ColIsPopular
             // 
-            ColIsPopular.DataPropertyName = "IsPopular";
-            ColIsPopular.HeaderText = "IsPopular";
+            ColIsPopular.DataPropertyName = "PopularityCount";
+            ColIsPopular.HeaderText = "PopularityCount";
             ColIsPopular.Name = "ColIsPopular";
+            // 
+            // Column1
+            // 
+            Column1.DataPropertyName = "UserId";
+            Column1.HeaderText = "UserId";
+            Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            Column2.DataPropertyName = "UserAccount";
+            Column2.HeaderText = "UserAccount";
+            Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            Column3.DataPropertyName = "Password";
+            Column3.HeaderText = "Password";
+            Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            Column4.DataPropertyName = "PhoneNumber";
+            Column4.HeaderText = "PhoneNumber";
+            Column4.Name = "Column4";
+            // 
+            // Column5
+            // 
+            Column5.DataPropertyName = "Email";
+            Column5.HeaderText = "Email";
+            Column5.Name = "Column5";
+            // 
+            // Column6
+            // 
+            Column6.DataPropertyName = "Nickname";
+            Column6.HeaderText = "Nickname";
+            Column6.Name = "Column6";
+            // 
+            // Column7
+            // 
+            Column7.DataPropertyName = "UserType";
+            Column7.HeaderText = "UserType";
+            Column7.Name = "Column7";
+            Column7.Visible = false;
             // 
             // StaffPage
             // 
@@ -200,13 +200,6 @@
 
         private Button button1;
         private DataGridView DgvData;
-        private DataGridViewTextBoxColumn Column1;
-        private DataGridViewTextBoxColumn Column2;
-        private DataGridViewTextBoxColumn Column3;
-        private DataGridViewTextBoxColumn Column4;
-        private DataGridViewTextBoxColumn Column5;
-        private DataGridViewTextBoxColumn Column6;
-        private DataGridViewTextBoxColumn Column7;
         private Button button2;
         private DataGridView DgvData1;
         private DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
@@ -216,5 +209,12 @@
         private DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
         private DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
         private DataGridViewTextBoxColumn ColIsPopular;
+        private DataGridViewTextBoxColumn Column1;
+        private DataGridViewTextBoxColumn Column2;
+        private DataGridViewTextBoxColumn Column3;
+        private DataGridViewTextBoxColumn Column4;
+        private DataGridViewTextBoxColumn Column5;
+        private DataGridViewTextBoxColumn Column6;
+        private DataGridViewTextBoxColumn Column7;
     }
 }

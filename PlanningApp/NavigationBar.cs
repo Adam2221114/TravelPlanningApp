@@ -6,17 +6,19 @@ namespace PlanningApp
 {
     public partial class NavigationBar : UserControl
     {
-        private  AppDbContext _context;
+        private AppDbContext _context;
+
         public NavigationBar()
         {
-
             InitializeComponent();
         }
+
         public NavigationBar(AppDbContext context)
         {
             _context = context;
             InitializeComponent();
         }
+
         protected override void OnLoad(EventArgs e)
         {
             base.OnLoad(e);
@@ -26,6 +28,7 @@ namespace PlanningApp
                 InitializeDbContext();
             }
         }
+
         private void InitializeDbContext()
         {
             var optionsBuilder = new DbContextOptionsBuilder<AppDbContext>();
@@ -60,13 +63,14 @@ namespace PlanningApp
 
         private void Profile_Click(object sender, EventArgs e)
         {
-            var UserProfile = new UserProfile(_context);
-            UserProfile.ShowDialog();
+            var userProfile = new UserProfile(_context);
+            userProfile.ShowDialog();
         }
 
         private void Favorites_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Open Favorites Page");
+            FavoritesForm favoritesForm = new FavoritesForm(_context);
+            favoritesForm.Show();
         }
 
         private void Settings_Click(object sender, EventArgs e)
@@ -81,27 +85,27 @@ namespace PlanningApp
             BtnSignIn.Visible = true;
             BtnRegister.Visible = true;
         }
+
         private void HomeButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Navigate to Home");
+            HomePage homePage = new HomePage(_context);
+            homePage.Show();
         }
+
 
         private void AllTouristSpotsButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Navigate to All Tourist Spots");
+            var allTouristSpotsForm = new AllTouristSpotsForm(_context);
+            allTouristSpotsForm.ShowDialog();
         }
 
         private void MostPopularButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Navigate to Most Popular");
+            MostPopularForm mostPopularForm = new MostPopularForm(_context);
+            mostPopularForm.ShowDialog();
         }
     }
 }
-
-
-
-
-
 
 
 
