@@ -15,7 +15,7 @@ namespace PlanningApp
         Dictionary<string, object> dicDgvType = new Dictionary<string, object>();
         private AppDbContext context;
 
-        public StaffPage(AppDbContext context)
+        public StaffPage(AppDbContext context)//constructor
         {
             this.context = context;
             InitializeComponent();
@@ -30,8 +30,8 @@ namespace PlanningApp
             {
                 this.BindingContext[DgvData.DataSource].SuspendBinding();
             }
-            DgvData.DataSource = new List<object>();
-            DgvData.DataSource = context.Users.ToList();
+            DgvData.DataSource = new List<object>();//generalized type
+            DgvData.DataSource = context.Users.ToList();// LINQ
             this.BindingContext[DgvData.DataSource].ResumeBinding();
         }
         public void PageQuery1()
@@ -41,8 +41,8 @@ namespace PlanningApp
             {
                 this.BindingContext[DgvData.DataSource].SuspendBinding();
             }
-            DgvData1.DataSource = new List<object>();
-            DgvData1.DataSource = context.TouristSpots.ToList();
+            DgvData1.DataSource = new List<object>();//generalized type
+            DgvData1.DataSource = context.TouristSpots.ToList();// LINQ 
             this.BindingContext[DgvData1.DataSource].ResumeBinding();
         }
 

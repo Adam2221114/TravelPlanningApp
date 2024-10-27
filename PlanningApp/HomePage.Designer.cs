@@ -4,7 +4,7 @@
     {
         private System.ComponentModel.IContainer components = null;
         public NavigationBar navigationBar1;
-        private Label label1;  // Label 控件声明
+        private Label label1;  
 
         protected override void Dispose(bool disposing)
         {

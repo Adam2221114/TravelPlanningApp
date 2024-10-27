@@ -9,25 +9,25 @@ namespace PlanningApp
     {
         private readonly AppDbContext _context;
 
-        public FavoritesForm(AppDbContext context)
+        public FavoritesForm(AppDbContext context)//constructor
         {
             _context = context;
             InitializeComponent();
-            LoadFavorites();
+            LoadFavorites();// Method calls
         }
 
         private void LoadFavorites()
         {
             if (UserSession.Instance.CurrentUser is Customer customer)
             {
-                var favoriteIds = customer.Favorites?.Split(',').ToList();
+                var favoriteIds = customer.Favorites?.Split(',').ToList();//generalized type
 
                 if (favoriteIds != null && favoriteIds.Any())
                 {
                     var favoriteSpots = _context.TouristSpots
                         .Where(t => favoriteIds.Contains(t.Id.ToString()))
                         .ToList();
-                    //LINQ 匿名方法
+                    //LINQ 
 
                     listBoxFavorites.DataSource = favoriteSpots;
                     listBoxFavorites.DisplayMember = "Name";
@@ -60,7 +60,7 @@ namespace PlanningApp
         {
             if (UserSession.Instance.CurrentUser is Customer customer)
             {
-                var favoriteList = customer.Favorites?.Split(',').ToList();
+                var favoriteList = customer.Favorites?.Split(',').ToList();//generalized type
 
                 if (favoriteList != null && favoriteList.Contains(touristSpotId.ToString()))
                 {

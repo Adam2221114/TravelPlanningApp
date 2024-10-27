@@ -8,20 +8,23 @@ namespace PlanningApp
 {
     public partial class TouristSpotDetailsForm : Form
     {
-        private readonly AppDbContext _context;  // 数据库上下文
-        private readonly TouristSpot _touristSpot;
-        private bool isLiked = false;  // 用于跟踪是否已点赞
+        private readonly AppDbContext _context;  // Database context for interacting with the database
+        private readonly TouristSpot _touristSpot; // Tourist spot information
+        private bool isLiked = false;  // Flag to track if the tourist spot is liked
         private string apiUrl = "https://api.weatherbit.io/v2.0/current?key=86fb8e3c32814f16bc290d3f2b653191";
-        // 构造函数接收数据库上下文和景点信息
+        // Weather API URL
+
+        // Constructor that accepts database context and tourist spot information
         public TouristSpotDetailsForm(AppDbContext context, TouristSpot touristSpot)
         {
-            FetchWeatherDataAsync();
-            _context = context;  // 初始化数据库上下文
-            _touristSpot = touristSpot;  // 初始化景点
-            InitializeComponent();
-            LoadTouristSpotDetails();
+            FetchWeatherDataAsync(); // Fetch weather data asynchronously
+            _context = context; // Initialize the database context
+            _touristSpot = touristSpot;  // Initialize the tourist spot
+            InitializeComponent(); // Initialize form components
+            LoadTouristSpotDetails(); // Load the details of the tourist spot
         }
-        private async Task FetchWeatherDataAsync()
+       // Asynchronous method to fetch weather data from the API
+       private async Task FetchWeatherDataAsync()
         {
             using (HttpClient client = new HttpClient())
             {
@@ -48,99 +51,104 @@ namespace PlanningApp
                         double appTemp = data.GetProperty("app_temp").GetDouble();
                         string weatherDescription = data.GetProperty("weather").GetProperty("description").GetString();
 
+                        // Update the weather label with temperature and description
                         weatherLabel.Text = appTemp + "C " + weatherDescription;
                     }
                 }
                 catch (HttpRequestException e)
-                {
+                { 
+                    // Log any request errors to the console
                     Console.WriteLine("Request error: " + e.Message);
                 }
             }
         }
 
-        // 加载景点详细信息
+        // Method to load details of the tourist spot
         private void LoadTouristSpotDetails()
         {
+
+            // Set labels to display the tourist spot's information
             lblName.Text = _touristSpot.Name;
             lblLocation.Text = $"Location: {_touristSpot.Location}";
             lblRating.Text = $"Rating: {_touristSpot.Rating}/5";
             lblDescription.Text = _touristSpot.Description;
 
-            // 加载图片
+            // Load the image from the specified path
             if (!string.IsNullOrEmpty(_touristSpot.ImagePath) && System.IO.File.Exists(_touristSpot.ImagePath))
             {
-                pictureBox.Image = Image.FromFile(_touristSpot.ImagePath);
-                pictureBox.SizeMode = PictureBoxSizeMode.Zoom;  // 设置为Zoom，确保图片不变形
+                pictureBox.Image = Image.FromFile(_touristSpot.ImagePath);// Load the image from file
+                pictureBox.SizeMode = PictureBoxSizeMode.Zoom; // Set size mode to Zoom to avoid distortion
             }
 
-            // 检查用户是否已收藏该景点
+            // Check if the user has favorited this tourist spot
             if (UserSession.Instance.CurrentUser is Customer customer)
             {
-                var favoriteList = customer.Favorites?.Split(',').ToList() ?? new List<string>();
-                isLiked = favoriteList.Contains(_touristSpot.Id.ToString());
-                button1.Text = isLiked ? "❤️ Unlike" : "❤️ Like";
+                var favoriteList = customer.Favorites?.Split(',').ToList() ?? new List<string>(); // Get the user's favorites
+                isLiked = favoriteList.Contains(_touristSpot.Id.ToString()); // Check if the current tourist spot is liked
+                button1.Text = isLiked ? "❤️ Unlike" : "❤️ Like";// Update button text based on like status
             }
         }
 
-        // 收藏/取消收藏按钮点击事件
+        // Event handler for the Like/Unlike button click
         private void button1_Click(object sender, EventArgs e)
         {
-            // 检查用户是否已登录
+            // Check if the user is logged in
             if (UserSession.Instance.CurrentUser is Customer customer)
             {
-                // 获取用户收藏的景点ID列表
+                // Get the user's list of favorite tourist spot IDs
                 var favoriteList = customer.Favorites?.Split(',').ToList() ?? new List<string>();
 
                 if (!isLiked)
                 {
-                    // 如果没有收藏，添加景点ID到收藏夹
+                    // If not liked, add the tourist spot ID to favorites
                     if (!favoriteList.Contains(_touristSpot.Id.ToString()))
                     {
-                        favoriteList.Add(_touristSpot.Id.ToString());
-                        customer.Favorites = string.Join(",", favoriteList);
+                        favoriteList.Add(_touristSpot.Id.ToString()); // Add to favorites
+                        customer.Favorites = string.Join(",", favoriteList);// Update favorites string
 
-                        // 更新景点的 PopularityCount
+
+                        // Update the tourist spot's popularity count
                         var touristSpot = _context.TouristSpots.Find(_touristSpot.Id);
                         if (touristSpot != null)
                         {
-                            touristSpot.PopularityCount += 1; // 增加受欢迎程度
+                            touristSpot.PopularityCount += 1;  // Increase popularity
                         }
 
-                        // 保存更改到数据库
+                        // Save changes to the database
                         _context.Entry(customer).State = EntityState.Modified;
                         _context.SaveChanges();
 
-                        button1.Text = "❤️ Unlike";
-                        isLiked = true;
+                        button1.Text = "❤️ Unlike";// Update button text
+                        isLiked = true;// Update like status
                     }
                 }
                 else
                 {
-                    // 如果已经收藏，取消收藏
+                    // If already liked, remove from favorites
                     if (favoriteList.Contains(_touristSpot.Id.ToString()))
                     {
-                        favoriteList.Remove(_touristSpot.Id.ToString());
-                        customer.Favorites = string.Join(",", favoriteList);
+                        favoriteList.Remove(_touristSpot.Id.ToString()); // Remove from favorites
+                        customer.Favorites = string.Join(",", favoriteList);// Update favorites string
 
-                        // 更新景点的 PopularityCount
+                        // Update the tourist spot's popularity count
                         var touristSpot = _context.TouristSpots.Find(_touristSpot.Id);
                         if (touristSpot != null)
                         {
-                            touristSpot.PopularityCount -= 1; // 减少受欢迎程度
+                            touristSpot.PopularityCount -= 1; // Decrease popularity
                         }
 
-                        // 保存更改到数据库
+                        // Save changes to the database
                         _context.Entry(customer).State = EntityState.Modified;
                         _context.SaveChanges();
 
-                        button1.Text = "❤️ Like";
-                        isLiked = false;
+                        button1.Text = "❤️ Like";// Update button text
+                        isLiked = false;// Update like status
                     }
                 }
             }
             else
             {
-                // 用户未登录，提示要求登录
+                // User is not logged in, prompt them to log in
                 MessageBox.Show("Please log in to save this attraction！");
             }
         }

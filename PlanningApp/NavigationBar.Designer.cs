@@ -12,18 +12,18 @@ namespace PlanningApp
         public IconButton BtnRegister;
         public IconButton BtnUserName;
         private ContextMenuStrip UserMenu;
-        private IconMenuItem UserProfileMenuItem;  // 使用 IconMenuItem
-        private IconMenuItem FavoritesMenuItem;    // 使用 IconMenuItem
-        private IconMenuItem SettingsMenuItem;     // 使用 IconMenuItem
-        private IconMenuItem LogoutMenuItem;       // 使用 IconMenuItem
-        private IconButton iconBtnHome;  // 声明 Home 的 IconButton
-        private IconButton iconBtnAllTouristSpots;  // 声明 All Tourist Spots 的 IconButton
-        private IconButton iconBtnMostPopular;  // 声明 Most Popular 的 IconButton
+        private IconMenuItem UserProfileMenuItem;  
+        private IconMenuItem FavoritesMenuItem;    
+        private IconMenuItem SettingsMenuItem;    
+        private IconMenuItem LogoutMenuItem;       
+        private IconButton iconBtnHome;  
+        private IconButton iconBtnAllTouristSpots;  
+        private IconButton iconBtnMostPopular;
 
         /// <summary>
-        /// 清理所有正在使用的资源。
+        /// Clean up any resources in use.
         /// </summary>
-        /// <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        /// <param name="disposing">true if managed resources should be released; false otherwise. </param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -36,7 +36,7 @@ namespace PlanningApp
         #region Windows Form Designer generated code
 
         /// <summary>
-        /// 设计器支持所需的方法 - 不要使用代码编辑器修改此方法的内容。
+        /// Method required for designer support - do not modify the contents of this method using the code editor.
         /// </summary>
         private void InitializeComponent()
         {

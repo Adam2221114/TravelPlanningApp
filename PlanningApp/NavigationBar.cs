@@ -8,18 +8,18 @@ namespace PlanningApp
     {
         private AppDbContext _context;
 
-        public NavigationBar()
+        public NavigationBar() // Constructor
         {
             InitializeComponent();
         }
 
-        public NavigationBar(AppDbContext context)
+        public NavigationBar(AppDbContext context)// Constructor overloading
         {
             _context = context;
             InitializeComponent();
         }
 
-        protected override void OnLoad(EventArgs e)
+        protected override void OnLoad(EventArgs e)// Override the OnLoad method
         {
             base.OnLoad(e);
 
@@ -36,7 +36,7 @@ namespace PlanningApp
             _context = new AppDbContext(optionsBuilder.Options);
         }
 
-        public void SetUserLoggedIn(string userAccount, string nickname)
+        public void SetUserLoggedIn(string userAccount, string nickname)// Methods
         {
             BtnSignIn.Visible = false;
             BtnRegister.Visible = false;

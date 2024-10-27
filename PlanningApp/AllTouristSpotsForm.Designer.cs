@@ -66,14 +66,10 @@
             this.BackColor = System.Drawing.Color.White;
             this.FormBorderStyle = FormBorderStyle.None;
             this.StartPosition = FormStartPosition.CenterScreen;
-
-            //this.btnClose.Click += (s, e) => this.Close();
-
-            // 允许窗体大小调整时，ListView 自动适应
             this.Resize += new System.EventHandler(this.AllTouristSpotsForm_Resize);
         }
 
-        // 窗口调整大小时，动态调整 ListView 大小
+        // Dynamically resize ListView when window is resized
         private void AllTouristSpotsForm_Resize(object sender, System.EventArgs e)
         {
             listView1.Width = this.ClientSize.Width;
