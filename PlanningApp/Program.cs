@@ -14,7 +14,7 @@ namespace PlanningApp
             var context = new AppDbContext(optionsBuilder.Options);
 
             ApplicationConfiguration.Initialize();
-            Application.Run(new HomePage(context)); // 使用 HomePage 作为启动表单
+            Application.Run(new HomePage(context)); 
         }
     }
 }
